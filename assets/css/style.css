@@ -16,6 +16,12 @@ h1 {
     line-height: 1em;
 }
 
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+
 section {
     padding: 50px 10px;
 }
@@ -46,6 +52,10 @@ button {
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.calculator-container {
+    padding: 25px 0;
 }
 
 #input-form {

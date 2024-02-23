@@ -1,5 +1,8 @@
 # Teleprompter Text Formatter
 
+## Give it a try 👇🏻
+https://rhemlock7.github.io/markdown-block/
+
 ## About This Project
 This project is a personal project designed to format markdown into one big block of text commonly used in teleprompters.
 

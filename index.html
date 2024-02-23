@@ -16,17 +16,20 @@
     <section class="main-content">
         <div>
             <h2>Input Text Below:</h2>
-            <form>
-                <textarea ></textarea>
+            <form id="input-form">
+                <textarea id="input-text-area" placeholder="Paste your script here..." ></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
         <div>
             <div>
                 <h2>Output Text:</h2>
-                <button>Copy To Clipboard</button>
+                <button id="copy-button">Copy To Clipboard</button>
             </div>
-
+            <textarea
+                placeholder="Your script will go here"
+                id="final-script-container"
+            ></textarea>
         </div>
     </section>
     <script src="./assets/javascript/scripts.js"></script>

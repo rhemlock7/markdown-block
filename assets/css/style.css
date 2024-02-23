@@ -21,8 +21,10 @@ section {
 
 textarea {
     margin-top: 15px;
-    width: 600px;
+    max-width: 600px;
+    width: 90%;
     height: 300px;
+    padding: 6px;
 }
 
 .main-content {

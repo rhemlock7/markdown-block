@@ -7,8 +7,7 @@ const copyButton = document.getElementById('copy-button')
 function formatMarkdown(event) {
     event.preventDefault()
     const inputValue = inputTextArea.value
-    const formattedScript = inputValue.replace(/(\s+-\s+)|[^a-zA-Z0-9.,\/!'...()?]|[\r\n]+/g, ' ')
-
+    const formattedScript = inputValue.replace(/(\s+-\s+)|[^a-zA-Z0-9.,\/!'"...()?]|[\r\n]+/g, ' ');
 
     console.log(formattedScript.trim())
     scriptContainer.textContent = formattedScript.trim();
